@@ -4,4 +4,11 @@ title:  "Methods"
 date:   2023-02-26 22:20:00 -0800
 categories: methods fmri
 ---
+# Single-Subject Analysis
+
+Put content here
+
+
+# Multi-Subject Analysis
+
 Put content here
