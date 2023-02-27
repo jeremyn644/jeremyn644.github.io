@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Results"
+date:   2023-02-26 22:20:00 -0800
+categories: results fmri
+---
+Put content here
