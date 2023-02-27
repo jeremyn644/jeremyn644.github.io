@@ -4,4 +4,11 @@ title:  "Results"
 date:   2023-02-26 22:20:00 -0800
 categories: results fmri
 ---
+# Findings 
+
+Put content here
+
+
+# Challenges
+
 Put content here
