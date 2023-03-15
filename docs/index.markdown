@@ -22,6 +22,7 @@ The pre-processed fMRI data for all 20 subjects was used for this project. There
 For each run, the events file for view and recall were combined to create a first level design matrix. The design matrix was built from timings of view and recall phases. Next, a contrast matrix was formed by finding the difference between view and recall tasks. 
 
 ![Design Matrix](design_matrix.png)
+
 **Fig 1: Plot of the contrast matrix**
 
 Then, the contrast matrix (Fig 1) was used to fit a first level General Linear Model (GLM). Finally, the nilearn.glm.compute_contrast method was used to compute the effect size and effect variance of the contrast of the model. Effect size represents the magnitude of difference between the view and recall runs. Effect variance represents the variance of the differences between the view and recall tasks. These results were saved as .nii files. 
