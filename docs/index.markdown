@@ -11,10 +11,10 @@ In the past, work has been done in a prior study that contained eye tracking dat
 
 # Dataset
 - Fmri 3D scans of 20 subjects who watched footage of the last 5 minutes of 2012 March Madness basketball games.
-  - Each subject viewed and recalled a set of three games.**
-  - 3 runs per subject, taking up 10 GBs per subject, adding up to a total of 200 GBs.**
-  - 271,000 voxels for each subject**
-  - https://app.globus.org/file-manager?origin_id=dc43f461-0ca7-4203-848c-33a9fc00a464&origin_path=%2Fr8b8-k094%2F**
+  - **Each subject viewed and recalled a set of three games.**
+  - **3 runs per subject, taking up 10 GBs per subject, adding up to a total of 200 GBs.**
+  - **271,000 voxels for each subject**
+  - **(https://app.globus.org/file-manager?origin_id=dc43f461-0ca7-4203-848c-33a9fc00a464&origin_path=%2Fr8b8-k094%2F)**
 
 # Methods & Hyperparameters
 The pre-processed fMRI data for all 20 subjects was used for this project. There are three runs for each subject, where each run contains a view task and a recall task for an individual basketball game.
