@@ -21,6 +21,8 @@ The pre-processed fMRI data for all 20 subjects was used for this project. There
 
 For each run, the events file for view and recall were combined to create a first level design matrix. The design matrix was built from timings of view and recall phases. Next, a contrast matrix was formed by finding the difference between view and recall tasks. 
 
+![Design Matrix](design_matrix.png)
+
 Then, the contrast matrix (Fig 1) was used to fit a first level General Linear Model (GLM). Finally, the nilearn.glm.compute_contrast method was used to compute the effect size and effect variance of the contrast of the model. Effect size represents the magnitude of difference between the view and recall runs. Effect variance represents the variance of the differences between the view and recall tasks. These results were saved as .nii files. 
 
 For each subject, the variance across all three runs was computed by using the compute_fixed_effects method. The three runs for each subject were combined into a single average run. Then, these results were used to compute the effect size and the effect variance between all 20 subjects, also known as random effects. Random effects looks at each voxel and runs a regression across subjects using the difference between each subject. These effect sizes and effect variances were stored into a folder and the original pre-processed fMRI data was deleted. This was done for storage purposes. Instead of having to store all 200 GBs of data at once, only storage of 87 MBs of data as contrasts was needed.
@@ -29,6 +31,8 @@ The design matrix was made using a column of ones of length 20, which is the num
 
 
 # Results
+
+![Contrast Maps](20_subjects.png)
 
 In Fig 2, the contrast maps (z-scores maps) corresponding to the effect size were plotted to visualize activation during viewing and recall tasks for each of the 20 subjects. There are similar general regions of activation between the 20 subjects.
 
