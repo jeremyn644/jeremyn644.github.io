@@ -21,7 +21,7 @@ In the past, work has been done in a prior study that contained eye tracking dat
 
 <br />
 
-# Methods & Hyperparameters
+# Methods
 The pre-processed fMRI data for all 20 subjects was used for this project. There are three runs for each subject, where each run contains a view task and a recall task for an individual basketball game.
 
 For each run, the events file for view and recall were combined to create a first level design matrix. The design matrix was built from timings of view and recall phases. Next, a contrast matrix was formed by finding the difference between view and recall tasks. 
