@@ -21,7 +21,7 @@
 title: Brain Region Activation From Sports Viewing
 email: jnurding@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Brain Region Activation From Sports Viewing
+  Through second-level analysis of 20 subjects, fMRI data that was used in the original paper was analyzed to determine if there is significant region activation during viewing and recall tasks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jeremyn644
