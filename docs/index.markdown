@@ -2,13 +2,13 @@
 layout: default
 ---
 
-> The goal of this report was to partially reproduce some of the ideas, analyses, and results from an original published paper, Antony et al., 2020. Through second-level analysis of 20 subjects, fMRI data that was used in the original paper was analyzed to determine if there is significant region activation during viewing and recall tasks.
+> The goal of this report was to partially reproduce some of the ideas, analyses, and results from an original published paper, [Antony et al., 2020.](https://www.biorxiv.org/content/10.1101/2020.03.26.008714v2.full) Through second-level analysis of 20 subjects, fMRI data that was used in the original paper was analyzed to determine if there is significant region activation during viewing and recall tasks.
 
 <br />
 
 # Introduction
 
-In the past, work has been done in a prior study that contained eye tracking data and fMRI data of 20 subjects who viewed and recalled the last 5 minutes of 2012 March Madness basketball games (Antony et al., 2020). The researchers used the ending of basketball games as a stimulus for surprise. The paper looked at the effects that surprise had on brain region activation. The paper found that surprise was positively correlated with brain activation in subcortical regions associated with dopamine, game enjoyment, and long-term memory. In addition, significant voxel activity was found in reward-related regions of the brain: ventral tegmental area (VTA), nucleus accumbens (NAcc), and prefrontal cortex. They were also able to find a strong correlation between surprise and long-term memory. 
+In the past, work has been done in a prior study that contained eye tracking data and fMRI data of 20 subjects who viewed and recalled the last 5 minutes of 2012 March Madness basketball games [(Antony et al., 2020)](https://www.biorxiv.org/content/10.1101/2020.03.26.008714v2.full). The researchers used the ending of basketball games as a stimulus for surprise. The paper looked at the effects that surprise had on brain region activation. The paper found that surprise was positively correlated with brain activation in subcortical regions associated with dopamine, game enjoyment, and long-term memory. In addition, significant voxel activity was found in reward-related regions of the brain: ventral tegmental area (VTA), nucleus accumbens (NAcc), and prefrontal cortex. They were also able to find a strong correlation between surprise and long-term memory. 
 
 <br />
 
@@ -84,4 +84,4 @@ Of the z-maps created for each of the 3 methods, the z-map created using false d
 
 # Conclusion
 
-In conclusion, different results from the original study were found. In Antony et al., 2020, the paper found neural activity in the ventral tegmental area (VTA), nucleus accumbens (NAcc), and prefrontal cortex. In this project, voxel activity in the occipital lobe and the Dorsal anterior cingulate cortex was observed. Significant voxel activity in the prefrontal cortex, VTA, or in the NAcc was not seen. This may be due to the paper using different thresholds for their plots. Another explanation could be that Antony et al., 2020 used a contrast other than effect size or effect variance.
+In conclusion, different results from the original study were found. In [Antony et al., 2020](https://www.biorxiv.org/content/10.1101/2020.03.26.008714v2.full), the paper found neural activity in the ventral tegmental area (VTA), nucleus accumbens (NAcc), and prefrontal cortex. In this project, voxel activity in the occipital lobe and the Dorsal anterior cingulate cortex was observed. Significant voxel activity in the prefrontal cortex, VTA, or in the NAcc was not seen. This may be due to the paper using different thresholds for their plots. Another explanation could be that [Antony et al., 2020](https://www.biorxiv.org/content/10.1101/2020.03.26.008714v2.full) used a contrast other than effect size or effect variance.
